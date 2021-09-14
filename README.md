@@ -33,375 +33,374 @@ NOTE: Some submodules may not be listed
 
 <details>
 <summary>assetProfile </summary>
-<br>
-	- address1<br>
-	- city<br>
-	- state<br>
-	- zip<br>
-	- country<br>
-	- phone<br>
-	- website<br>
-	- industry<br>
-	- sector<br>
-	- longBusinessSummary<br>
-	- fullTimeEmployees<br>
-	- companyOfficers<br>
-	- auditRisk<br>
-	- boardRisk<br>
-	- compensationRisk<br>
-	- shareHolderRightsRisk<br>
-	- overallRisk<br>
-	- governanceEpochDate<br>
-	- compensationAsOfEpochDate<br>
-	- maxAge<br>
-	- address2<br>
-	- fax<br>
-	<br><br>
+
+- address1
+- city
+- state
+- zip
+- country
+- phone
+- website
+- industry
+- sector
+- longBusinessSummary
+- fullTimeEmployees
+- companyOfficers
+- auditRisk
+- boardRisk
+- compensationRisk
+- shareHolderRightsRisk
+- overallRisk
+- governanceEpochDate
+- compensationAsOfEpochDate
+- maxAge
+- address2
+- fax
 </details><details>
 <summary>recommendationTrend</summary>
-	- trend
-	- maxAge
-* cashflowStatementHistory
-	- cashflowStatements
-	- maxAge
-* indexTrend
-	- maxAge
-	- symbol
-	- peRatio
-	- pegRatio
-	- estimates
-* defaultKeyStatistics
-	- maxAge
-	- priceHint
-	- enterpriseValue
-	- forwardPE
-	- profitMargins
-	- floatShares
-	- sharesOutstanding
-	- sharesShort
-	- sharesShortPriorMonth
-	- sharesShortPreviousMonthDate
-	- dateShortInterest
-	- sharesPercentSharesOut
-	- heldPercentInsiders
-	- heldPercentInstitutions
-	- shortRatio
-	- shortPercentOfFloat
-	- beta
-	- impliedSharesOutstanding
-	- morningStarOverallRating
-	- morningStarRiskRating
-	- category
-	- bookValue
-	- priceToBook
-	- annualReportExpenseRatio
-	- ytdReturn
-	- beta3Year
-	- totalAssets
-	- yield
-	- fundFamily
-	- fundInceptionDate
-	- legalType
-	- threeYearAverageReturn
-	- fiveYearAverageReturn
-	- priceToSalesTrailing12Months
-	- lastFiscalYearEnd
-	- nextFiscalYearEnd
-	- mostRecentQuarter
-	- earningsQuarterlyGrowth
-	- revenueQuarterlyGrowth
-	- netIncomeToCommon
-	- trailingEps
-	- forwardEps
-	- pegRatio
-	- lastSplitFactor
-	- lastSplitDate
-	- enterpriseToRevenue
-	- enterpriseToEbitda
-	- 52WeekChange
-	- SandP52WeekChange
-	- lastDividendValue
-	- lastDividendDate
-	- lastCapGain
-	- annualHoldingsTurnover
-* industryTrend
-	- maxAge
-	- symbol
-	- peRatio
-	- pegRatio
-	- estimates
-* quoteType
-	- exchange
-	- quoteType
-	- symbol
-	- underlyingSymbol
-	- shortName
-	- longName
-	- firstTradeDateEpochUtc
-	- timeZoneFullName
-	- timeZoneShortName
-	- uuid
-	- messageBoardId
-	- gmtOffSetMilliseconds
-	- maxAge
-* incomeStatementHistory
-	- incomeStatementHistory
-	- maxAge
-* fundOwnership
-	- maxAge
-	- ownershipList
-* summaryDetail
-	- maxAge
-	- priceHint
-	- previousClose
-	- open
-	- dayLow
-	- dayHigh
-	- regularMarketPreviousClose
-	- regularMarketOpen
-	- regularMarketDayLow
-	- regularMarketDayHigh
-	- dividendRate
-	- dividendYield
-	- exDividendDate
-	- payoutRatio
-	- fiveYearAvgDividendYield
-	- beta
-	- trailingPE
-	- forwardPE
-	- volume
-	- regularMarketVolume
-	- averageVolume
-	- averageVolume10days
-	- averageDailyVolume10Day
-	- bid
-	- ask
-	- bidSize
-	- askSize
-	- marketCap
-	- yield
-	- ytdReturn
-	- totalAssets
-	- expireDate
-	- strikePrice
-	- openInterest
-	- fiftyTwoWeekLow
-	- fiftyTwoWeekHigh
-	- priceToSalesTrailing12Months
-	- fiftyDayAverage
-	- twoHundredDayAverage
-	- trailingAnnualDividendRate
-	- trailingAnnualDividendYield
-	- navPrice
-	- currency
-	- fromCurrency
-	- toCurrency
-	- lastMarket
-	- volume24Hr
-	- volumeAllCurrencies
-	- circulatingSupply
-	- algorithm
-	- maxSupply
-	- startDate
-	- tradeable
-* insiderHolders
-	- holders
-	- maxAge
-* calendarEvents
-	- maxAge
-	- earnings
-	- exDividendDate
-	- dividendDate
-* upgradeDowngradeHistory
-	- history
-	- maxAge
-* price
-	- maxAge
-	- preMarketChangePercent
-	- preMarketChange
-	- preMarketTime
-	- preMarketPrice
-	- preMarketSource
-	- postMarketChange
-	- postMarketPrice
-	- regularMarketChangePercent
-	- regularMarketChange
-	- regularMarketTime
-	- priceHint
-	- regularMarketPrice
-	- regularMarketDayHigh
-	- regularMarketDayLow
-	- regularMarketVolume
-	- averageDailyVolume10Day
-	- averageDailyVolume3Month
-	- regularMarketPreviousClose
-	- regularMarketSource
-	- regularMarketOpen
-	- strikePrice
-	- openInterest
-	- exchange
-	- exchangeName
-	- exchangeDataDelayedBy
-	- marketState
-	- quoteType
-	- symbol
-	- underlyingSymbol
-	- shortName
-	- longName
-	- currency
-	- quoteSourceName
-	- currencySymbol
-	- fromCurrency
-	- toCurrency
-	- lastMarket
-	- volume24Hr
-	- volumeAllCurrencies
-	- circulatingSupply
-	- marketCap
-* balanceSheetHistory
-	- balanceSheetStatements
-	- maxAge
-* earningsTrend
-	- trend
-	- maxAge
-* secFilings
-	- filings
-	- maxAge
-* institutionOwnership
-	- maxAge
-	- ownershipList
-* majorHoldersBreakdown
-	- maxAge
-	- insidersPercentHeld
-	- institutionsPercentHeld
-	- institutionsFloatPercentHeld
-	- institutionsCount
-* balanceSheetHistoryQuarterly
-	- balanceSheetStatements
-	- maxAge
-* earningsHistory
-	- history
-	- maxAge
-* majorDirectHolders
-	- holders
-	- maxAge
-* summaryProfile
-	- address1
-	- city
-	- state
-	- zip
-	- country
-	- phone
-	- website
-	- industry
-	- sector
-	- longBusinessSummary
-	- fullTimeEmployees
-	- companyOfficers
-	- maxAge
-	- address2
-	- fax
-* netSharePurchaseActivity
-	- maxAge
-	- period
-	- buyInfoCount
-	- buyInfoShares
-	- buyPercentInsiderShares
-	- sellInfoCount
-	- sellInfoShares
-	- sellPercentInsiderShares
-	- netInfoCount
-	- netInfoShares
-	- netPercentInsiderShares
-	- totalInsiderShares
-* insiderTransactions
-	- transactions
-	- maxAge
-* sectorTrend
-	- maxAge
-	- symbol
-	- peRatio
-	- pegRatio
-	- estimates
-* incomeStatementHistoryQuarterly
-	- incomeStatementHistory
-	- maxAge
-* cashflowStatementHistoryQuarterly
-	- cashflowStatements
-	- maxAge
-* earnings
-	- maxAge
-	- earningsChart
-	- financialsChart
-	- financialCurrency
-* financialData
-	- maxAge
-	- currentPrice
-	- targetHighPrice
-	- targetLowPrice
-	- targetMeanPrice
-	- targetMedianPrice
-	- recommendationMean
-	- recommendationKey
-	- numberOfAnalystOpinions
-	- totalCash
-	- totalCashPerShare
-	- ebitda
-	- totalDebt
-	- quickRatio
-	- currentRatio
-	- totalRevenue
-	- debtToEquity
-	- revenuePerShare
-	- returnOnAssets
-	- returnOnEquity
-	- grossProfits
-	- freeCashflow
-	- operatingCashflow
-	- earningsGrowth
-	- revenueGrowth
-	- grossMargins
-	- ebitdaMargins
-	- operatingMargins
-	- profitMargins
-	- financialCurrency
-* fundProfile
-	- maxAge
-	- styleBoxUrl
-	- family
-	- categoryName
-	- legalType
-	- managementInfo
-	- feesExpensesInvestment
-	- feesExpensesInvestmentCat
-	- initInvestment
-	- initIraInvestment
-	- initAipInvestment
-	- subseqInvestment
-	- subseqIraInvestment
-	- subseqAipInvestment
-	- brokerages
-* topHoldings
-	- maxAge
-	- cashPosition
-	- stockPosition
-	- bondPosition
-	- otherPosition
-	- preferredPosition
-	- convertiblePosition
-	- holdings
-	- equityHoldings
-	- bondHoldings
-	- bondRatings
-	- sectorWeightings
-* fundPerformance
-	- maxAge
-	- performanceOverview
-	- performanceOverviewCat
-	- trailingReturns
-	- trailingReturnsNav
-	- trailingReturnsCat
-	- annualTotalReturns
-	- pastQuarterlyReturns
-	- riskOverviewStatistics
-	- riskOverviewStatisticsCat
+- trend
+- maxAge
+</details><details> cashflowStatementHistory
+- cashflowStatements
+- maxAge
+</details><details> indexTrend
+- maxAge
+- symbol
+- peRatio
+- pegRatio
+- estimates
+</details><details> defaultKeyStatistics
+- maxAge
+- priceHint
+- enterpriseValue
+- forwardPE
+- profitMargins
+- floatShares
+- sharesOutstanding
+- sharesShort
+- sharesShortPriorMonth
+- sharesShortPreviousMonthDate
+- dateShortInterest
+- sharesPercentSharesOut
+- heldPercentInsiders
+- heldPercentInstitutions
+- shortRatio
+- shortPercentOfFloat
+- beta
+- impliedSharesOutstanding
+- morningStarOverallRating
+- morningStarRiskRating
+- category
+- bookValue
+- priceToBook
+- annualReportExpenseRatio
+- ytdReturn
+- beta3Year
+- totalAssets
+- yield
+- fundFamily
+- fundInceptionDate
+- legalType
+- threeYearAverageReturn
+- fiveYearAverageReturn
+- priceToSalesTrailing12Months
+- lastFiscalYearEnd
+- nextFiscalYearEnd
+- mostRecentQuarter
+- earningsQuarterlyGrowth
+- revenueQuarterlyGrowth
+- netIncomeToCommon
+- trailingEps
+- forwardEps
+- pegRatio
+- lastSplitFactor
+- lastSplitDate
+- enterpriseToRevenue
+- enterpriseToEbitda
+- 52WeekChange
+- SandP52WeekChange
+- lastDividendValue
+- lastDividendDate
+- lastCapGain
+- annualHoldingsTurnover
+</details><details> industryTrend
+- maxAge
+- symbol
+- peRatio
+- pegRatio
+- estimates
+</details><details> quoteType
+- exchange
+- quoteType
+- symbol
+- underlyingSymbol
+- shortName
+- longName
+- firstTradeDateEpochUtc
+- timeZoneFullName
+- timeZoneShortName
+- uuid
+- messageBoardId
+- gmtOffSetMilliseconds
+- maxAge
+</details><details> incomeStatementHistory
+- incomeStatementHistory
+- maxAge
+</details><details> fundOwnership
+- maxAge
+- ownershipList
+</details><details> summaryDetail
+- maxAge
+- priceHint
+- previousClose
+- open
+- dayLow
+- dayHigh
+- regularMarketPreviousClose
+- regularMarketOpen
+- regularMarketDayLow
+- regularMarketDayHigh
+- dividendRate
+- dividendYield
+- exDividendDate
+- payoutRatio
+- fiveYearAvgDividendYield
+- beta
+- trailingPE
+- forwardPE
+- volume
+- regularMarketVolume
+- averageVolume
+- averageVolume10days
+- averageDailyVolume10Day
+- bid
+- ask
+- bidSize
+- askSize
+- marketCap
+- yield
+- ytdReturn
+- totalAssets
+- expireDate
+- strikePrice
+- openInterest
+- fiftyTwoWeekLow
+- fiftyTwoWeekHigh
+- priceToSalesTrailing12Months
+- fiftyDayAverage
+- twoHundredDayAverage
+- trailingAnnualDividendRate
+- trailingAnnualDividendYield
+- navPrice
+- currency
+- fromCurrency
+- toCurrency
+- lastMarket
+- volume24Hr
+- volumeAllCurrencies
+- circulatingSupply
+- algorithm
+- maxSupply
+- startDate
+- tradeable
+</details><details> insiderHolders
+- holders
+- maxAge
+</details><details> calendarEvents
+- maxAge
+- earnings
+- exDividendDate
+- dividendDate
+</details><details> upgradeDowngradeHistory
+- history
+- maxAge
+</details><details> price
+- maxAge
+- preMarketChangePercent
+- preMarketChange
+- preMarketTime
+- preMarketPrice
+- preMarketSource
+- postMarketChange
+- postMarketPrice
+- regularMarketChangePercent
+- regularMarketChange
+- regularMarketTime
+- priceHint
+- regularMarketPrice
+- regularMarketDayHigh
+- regularMarketDayLow
+- regularMarketVolume
+- averageDailyVolume10Day
+- averageDailyVolume3Month
+- regularMarketPreviousClose
+- regularMarketSource
+- regularMarketOpen
+- strikePrice
+- openInterest
+- exchange
+- exchangeName
+- exchangeDataDelayedBy
+- marketState
+- quoteType
+- symbol
+- underlyingSymbol
+- shortName
+- longName
+- currency
+- quoteSourceName
+- currencySymbol
+- fromCurrency
+- toCurrency
+- lastMarket
+- volume24Hr
+- volumeAllCurrencies
+- circulatingSupply
+- marketCap
+</details><details> balanceSheetHistory
+- balanceSheetStatements
+- maxAge
+</details><details> earningsTrend
+- trend
+- maxAge
+</details><details> secFilings
+- filings
+- maxAge
+</details><details> institutionOwnership
+- maxAge
+- ownershipList
+</details><details> majorHoldersBreakdown
+- maxAge
+- insidersPercentHeld
+- institutionsPercentHeld
+- institutionsFloatPercentHeld
+- institutionsCount
+</details><details> balanceSheetHistoryQuarterly
+- balanceSheetStatements
+- maxAge
+</details><details> earningsHistory
+- history
+- maxAge
+</details><details> majorDirectHolders
+- holders
+- maxAge
+</details><details> summaryProfile
+- address1
+- city
+- state
+- zip
+- country
+- phone
+- website
+- industry
+- sector
+- longBusinessSummary
+- fullTimeEmployees
+- companyOfficers
+- maxAge
+- address2
+- fax
+</details><details> netSharePurchaseActivity
+- maxAge
+- period
+- buyInfoCount
+- buyInfoShares
+- buyPercentInsiderShares
+- sellInfoCount
+- sellInfoShares
+- sellPercentInsiderShares
+- netInfoCount
+- netInfoShares
+- netPercentInsiderShares
+- totalInsiderShares
+</details><details> insiderTransactions
+- transactions
+- maxAge
+</details><details> sectorTrend
+- maxAge
+- symbol
+- peRatio
+- pegRatio
+- estimates
+</details><details> incomeStatementHistoryQuarterly
+- incomeStatementHistory
+- maxAge
+</details><details> cashflowStatementHistoryQuarterly
+- cashflowStatements
+- maxAge
+</details><details> earnings
+- maxAge
+- earningsChart
+- financialsChart
+- financialCurrency
+</details><details> financialData
+- maxAge
+- currentPrice
+- targetHighPrice
+- targetLowPrice
+- targetMeanPrice
+- targetMedianPrice
+- recommendationMean
+- recommendationKey
+- numberOfAnalystOpinions
+- totalCash
+- totalCashPerShare
+- ebitda
+- totalDebt
+- quickRatio
+- currentRatio
+- totalRevenue
+- debtToEquity
+- revenuePerShare
+- returnOnAssets
+- returnOnEquity
+- grossProfits
+- freeCashflow
+- operatingCashflow
+- earningsGrowth
+- revenueGrowth
+- grossMargins
+- ebitdaMargins
+- operatingMargins
+- profitMargins
+- financialCurrency
+</details><details> fundProfile
+- maxAge
+- styleBoxUrl
+- family
+- categoryName
+- legalType
+- managementInfo
+- feesExpensesInvestment
+- feesExpensesInvestmentCat
+- initInvestment
+- initIraInvestment
+- initAipInvestment
+- subseqInvestment
+- subseqIraInvestment
+- subseqAipInvestment
+- brokerages
+</details><details> topHoldings
+- maxAge
+- cashPosition
+- stockPosition
+- bondPosition
+- otherPosition
+- preferredPosition
+- convertiblePosition
+- holdings
+- equityHoldings
+- bondHoldings
+- bondRatings
+- sectorWeightings
+</details><details> fundPerformance
+- maxAge
+- performanceOverview
+- performanceOverviewCat
+- trailingReturns
+- trailingReturnsNav
+- trailingReturnsCat
+- annualTotalReturns
+- pastQuarterlyReturns
+- riskOverviewStatistics
+- riskOverviewStatisticsCat
