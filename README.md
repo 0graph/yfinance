@@ -31,7 +31,8 @@ not all stocks contain the same modules/submodules so formatting errors may occu
 # Module List / Submodule List
 NOTE: Some submodules may not be listed
 
-* assetProfile
+<summary>* assetProfile </summary>
+<br>
 	- address1
 	- city
 	- state
