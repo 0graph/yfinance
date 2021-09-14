@@ -1,9 +1,10 @@
 # yfinance
-A Yahoo Finance API Custom Function for Google sheets.
+A Yahoo Finance API Custom Function for Google sheets. 
 
 # Installation
 1. on your sheet go to tools -> Script Editor
 2. Create new script and copy function.gs to it
+3. Once saved it should be ready for use
 
 # Usage
 
