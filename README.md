@@ -32,7 +32,7 @@ not all stocks contain the same modules/submodules so formatting errors may occu
 NOTE: Some submodules may not be listed
 
 <details>
-<summary>* assetProfile </summary>
+<summary>assetProfile </summary>
 <br>
 	- address1
 	<br><br>
