@@ -57,6 +57,7 @@ NOTE: Some submodules may not be listed
 	- address2<br>
 	- fax<br>
 	<br><br>
+<details>
 <summary>recommendationTrend</summary>
 	- trend
 	- maxAge
