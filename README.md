@@ -28,9 +28,8 @@ not all stocks contain the same modules/submodules so formatting errors may occu
 
 
 # Module List (Submodule List Coming SOON)
-use the link below (replace {} with your ticker) and a JSON tree viewer to see submodules avaliable for a ticker for now
-
-https://query2.finance.yahoo.com/v10/finance/quoteSummary/{YOUR-TICKER-HERE}?modules=assetProfile,balanceSheetHistory,balanceSheetHistoryQuarterly,calendarEvents,cashflowStatementHistory,cashflowStatementHistoryQuarterly,defaultKeyStatistics,earnings,earningsHistory,earningsTrend,financialData,fundOwnership,incomeStatementHistory,incomeStatementHistoryQuarterly,indexTrend,industryTrend,insiderHolders,insiderTransactions,institutionOwnership,majorDirectHolders,majorHoldersBreakdown,netSharePurchaseActivity,price,quoteType,recommendationTrend,secFilings,sectorTrend,summaryDetail,summaryProfile,symbol,upgradeDowngradeHistory,fundProfile,topHoldings,fundPerformance
+using the link below (replace {} with your ticker) and a JSON tree viewer to see submodules avaliable for a ticker for now
+https://query2.finance.yahoo.com/v10/finance/quoteSummary/{YOUR-TICKER-HERE}?modules=assetProfle,earnings,etc
 
 
 * assetProfile
