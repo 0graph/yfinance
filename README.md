@@ -35,7 +35,6 @@ NOTE: Some submodules may not be listed
 <summary>assetProfile </summary>
 <br>
 	- address1
-	<br><br>
 	- city
 	- state
 	- zip
@@ -57,6 +56,8 @@ NOTE: Some submodules may not be listed
 	- maxAge
 	- address2
 	- fax
+	<br><br>
+	<pre>
 * recommendationTrend
 	- trend
 	- maxAge
