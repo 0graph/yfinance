@@ -34,31 +34,30 @@ NOTE: Some submodules may not be listed
 <details>
 <summary>assetProfile </summary>
 <br>
-	- address1
-	- city
-	- state
-	- zip
-	- country
-	- phone
-	- website
-	- industry
-	- sector
-	- longBusinessSummary
-	- fullTimeEmployees
-	- companyOfficers
-	- auditRisk
-	- boardRisk
-	- compensationRisk
-	- shareHolderRightsRisk
-	- overallRisk
-	- governanceEpochDate
-	- compensationAsOfEpochDate
-	- maxAge
-	- address2
-	- fax
+	- address1<br>
+	- city<br>
+	- state<br>
+	- zip<br>
+	- country<br>
+	- phone<br>
+	- website<br>
+	- industry<br>
+	- sector<br>
+	- longBusinessSummary<br>
+	- fullTimeEmployees<br>
+	- companyOfficers<br>
+	- auditRisk<br>
+	- boardRisk<br>
+	- compensationRisk<br>
+	- shareHolderRightsRisk<br>
+	- overallRisk<br>
+	- governanceEpochDate<br>
+	- compensationAsOfEpochDate<br>
+	- maxAge<br>
+	- address2<br>
+	- fax<br>
 	<br><br>
-	<pre>
-* recommendationTrend
+<summary>recommendationTrend</summary>
 	- trend
 	- maxAge
 * cashflowStatementHistory
