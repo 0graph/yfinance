@@ -5,7 +5,7 @@ A Yahoo Finance API Custom Function for Google sheets.
 1. on your sheet go to tools -> Script Editor
 2. Create new script and copy function.gs to it
 
-# usage
+# Usage
 
 ## Ticker
 the ticker according to yahoo finance of the stock you want to get data from
