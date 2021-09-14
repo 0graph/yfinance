@@ -56,18 +56,22 @@ NOTE: Some submodules may not be listed
 - address2
 - fax
 </details><details><summary>recommendationTrend</summary>
+
 - trend
 - maxAge
 </details><details><summary> cashflowStatementHistory</summary>
+
 - cashflowStatements
 - maxAge
 </details><details><summary> indexTrend</summary>
+
 - maxAge
 - symbol
 - peRatio
 - pegRatio
 - estimates
 </details><details><summary> defaultKeyStatistics</summary>
+
 - maxAge
 - priceHint
 - enterpriseValue
@@ -122,12 +126,14 @@ NOTE: Some submodules may not be listed
 - lastCapGain
 - annualHoldingsTurnover
 </details><details><summary> industryTrend</summary>
+
 - maxAge
 - symbol
 - peRatio
 - pegRatio
 - estimates
 </details><details><summary> quoteType</summary>
+
 - exchange
 - quoteType
 - symbol
@@ -142,12 +148,15 @@ NOTE: Some submodules may not be listed
 - gmtOffSetMilliseconds
 - maxAge
 </details><details><summary> incomeStatementHistory</summary>
+
 - incomeStatementHistory
 - maxAge
 </details><details><summary> fundOwnership</summary>
+
 - maxAge
 - ownershipList
 </details><details><summary> summaryDetail</summary>
+
 - maxAge
 - priceHint
 - previousClose
@@ -202,17 +211,21 @@ NOTE: Some submodules may not be listed
 - startDate
 - tradeable
 </details><details><summary> insiderHolders</summary>
+
 - holders
 - maxAge
 </details><details><summary> calendarEvents</summary>
+
 - maxAge
 - earnings
 - exDividendDate
 - dividendDate
 </details><details><summary> upgradeDowngradeHistory</summary>
+
 - history
 - maxAge
 </details><details><summary> price</summary>
+
 - maxAge
 - preMarketChangePercent
 - preMarketChange
@@ -256,33 +269,42 @@ NOTE: Some submodules may not be listed
 - circulatingSupply
 - marketCap
 </details><details><summary> balanceSheetHistory</summary>
+
 - balanceSheetStatements
 - maxAge
 </details><details><summary> earningsTrend</summary>
+
 - trend
 - maxAge
 </details><details><summary> secFilings</summary>
+
 - filings
 - maxAge
 </details><details><summary> institutionOwnership</summary>
+
 - maxAge
 - ownershipList
 </details><details><summary> majorHoldersBreakdown</summary>
+
 - maxAge
 - insidersPercentHeld
 - institutionsPercentHeld
 - institutionsFloatPercentHeld
 - institutionsCount
 </details><details><summary> balanceSheetHistoryQuarterly</summary>
+
 - balanceSheetStatements
 - maxAge
 </details><details><summary> earningsHistory</summary>
+
 - history
 - maxAge
 </details><details><summary> majorDirectHolders</summary>
+
 - holders
 - maxAge
 </details><details><summary> summaryProfile</summary>
+
 - address1
 - city
 - state
@@ -299,6 +321,7 @@ NOTE: Some submodules may not be listed
 - address2
 - fax
 </details><details><summary> netSharePurchaseActivity</summary>
+
 - maxAge
 - period
 - buyInfoCount
@@ -312,26 +335,32 @@ NOTE: Some submodules may not be listed
 - netPercentInsiderShares
 - totalInsiderShares
 </details><details><summary> insiderTransactions</summary>
+
 - transactions
 - maxAge
 </details><details><summary> sectorTrend</summary>
+
 - maxAge
 - symbol
 - peRatio
 - pegRatio
 - estimates
 </details><details><summary> incomeStatementHistoryQuarterly</summary>
+
 - incomeStatementHistory
 - maxAge
 </details><details><summary> cashflowStatementHistoryQuarterly</summary>
+
 - cashflowStatements
 - maxAge
 </details><details><summary> earnings</summary>
+
 - maxAge
 - earningsChart
 - financialsChart
 - financialCurrency
 </details><details><summary> financialData</summary>
+
 - maxAge
 - currentPrice
 - targetHighPrice
@@ -363,6 +392,7 @@ NOTE: Some submodules may not be listed
 - profitMargins
 - financialCurrency
 </details><details><summary> fundProfile</summary>
+
 - maxAge
 - styleBoxUrl
 - family
@@ -379,6 +409,7 @@ NOTE: Some submodules may not be listed
 - subseqAipInvestment
 - brokerages
 </details><details><summary> topHoldings</summary>
+
 - maxAge
 - cashPosition
 - stockPosition
@@ -392,6 +423,7 @@ NOTE: Some submodules may not be listed
 - bondRatings
 - sectorWeightings
 </details><details><summary> fundPerformance</summary>
+
 - maxAge
 - performanceOverview
 - performanceOverviewCat
