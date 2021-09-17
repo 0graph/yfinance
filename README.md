@@ -11,8 +11,8 @@ A Yahoo Finance API Custom Function for Google sheets. This function can return 
 ### Ticker
 the ticker according to yahoo finance of the stock you want to get data from
 Example: "AAPL", "TD.TO"
-* =yfinance(ticker,modules)
-* =yfinance("AAPL","{'assetProfile':[]}")
+* =yfinance(ticker,modules,header)
+* =yfinance("AAPL","{'assetProfile':[]}",true)
 
 ### Modules
 Every stock has modules of data returned by yahoo finance
@@ -20,7 +20,11 @@ Each module has submodules (ex. peRatio) and you can specify these in an array o
 returning all submodules may mess up formatting slightly
 Format: "{'module1':['subModule1','subModule2'],
           'module2':[]}" (DONT use doublequotes for modules and submodules)
-* =yfinance("AAPL","{'price':['marketCap'],'earnings':[]}")
+* =yfinance("AAPL","{'price':['marketCap'],'earnings':[]}",false)
+
+### Headers
+Include data headers using true/false
+* =Yfinance(ticker,modules,true)
 
 ### Note
 not all stocks contain the same modules/submodules so formatting errors may occur due to this. Some submodules have their own submodules (ex. insiderTransactions) which will be put as a JSON string in a cell and may by over the max cell char limit of google sheets. 
