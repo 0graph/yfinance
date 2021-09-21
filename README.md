@@ -33,7 +33,7 @@ not all stocks contain the same modules/submodules so formatting errors may occu
 
 
 
-<details><summary> # Module List / Submodule List</summary>
+<details><summary> <h1> Module List / Submodule List</h1></summary>
 
 NOTE: Some submodules may not be listed
 
