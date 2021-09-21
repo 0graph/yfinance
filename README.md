@@ -444,7 +444,7 @@ NOTE: Some submodules may not be listed
 - pastQuarterlyReturns
 - riskOverviewStatistics
 - riskOverviewStatisticsCat
-</details>
+</details></details>
 
   
           
