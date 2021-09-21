@@ -1,20 +1,21 @@
-# yfinance
+
+# yfinance for Google Sheets
 A Yahoo Finance API Custom Function for Google sheets. This function can return any data or statistics for yahoo finance stocks. Options support currently in development
 
-# Installation
+## Installation
 1. on your sheet go to tools -> Script Editor
 2. Create new script and copy function.gs to it
 3. Once saved it should be ready for use
 
-# Usage
+## Usage (=yfinance)
 
-### Ticker
+#### Ticker
 the ticker according to yahoo finance of the stock you want to get data from
 Example: "AAPL", "TD.TO"
 * =yfinance(ticker,modules,header)
 * =yfinance("AAPL","{'assetProfile':[]}",true)
 
-### Modules
+#### Modules
 Every stock has modules of data returned by yahoo finance
 Each module has submodules (ex. peRatio) and you can specify these in an array or leave an empty [] array to return all submodules
 returning all submodules may mess up formatting slightly
@@ -22,17 +23,18 @@ Format: "{'module1':['subModule1','subModule2'],
           'module2':[]}" (DONT use doublequotes for modules and submodules)
 * =yfinance("AAPL","{'price':['marketCap'],'earnings':[]}",false)
 
-### Headers
+#### Headers
 Include data headers using true/false
 * =Yfinance(ticker,modules,true)
 
-### Note
+#### Note
 not all stocks contain the same modules/submodules so formatting errors may occur due to this. Some submodules have their own submodules (ex. insiderTransactions) which will be put as a JSON string in a cell and may by over the max cell char limit of google sheets. 
 
 
 
 
-# Module List / Submodule List
+<details><summary> # Module List / Submodule List</summary>
+
 NOTE: Some submodules may not be listed
 
 <details><summary>assetProfile </summary>
@@ -438,3 +440,4 @@ NOTE: Some submodules may not be listed
 - pastQuarterlyReturns
 - riskOverviewStatistics
 - riskOverviewStatisticsCat
+</details>
