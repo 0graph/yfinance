@@ -2,8 +2,8 @@
 # yfinance for Google Sheets
 A Yahoo Finance API Custom Function for Google sheets. This function can return any data or statistics for yahoo finance stocks. Options support currently in development
 #### Contents
-[=yfinance usage & modules](# Usage (=yfinance))
-[=yfinance_history usage](# Usage (=yfinance_history))
+* [=yfinance usage & modules](#yf)
+* [=yfinance_history usage](#yfh)
 
 
 
@@ -12,7 +12,7 @@ A Yahoo Finance API Custom Function for Google sheets. This function can return 
 2. Create new script and copy function.gs to it
 3. Once saved it should be ready for use
 
-## Usage (=yfinance)
+## Usage (=yfinance) <a name="yf"></a>
 
 #### Ticker
 the ticker according to yahoo finance of the stock you want to get data from
@@ -448,5 +448,5 @@ NOTE: Some submodules may not be listed
 
   
           
-## Usage (=yfinance_history)
+## Usage (=yfinance_history)<a name="yfh"></a>
 a
