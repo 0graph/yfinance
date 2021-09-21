@@ -32,9 +32,8 @@ not all stocks contain the same modules/submodules so formatting errors may occu
 
 
 
-
-<details><summary> <h1> Module List / Submodule List</h1></summary>
-
+<h1> Module List / Submodule List</h1>
+<details><summary>Expand List</summary>
 NOTE: Some submodules may not be listed
 
 <details><summary>assetProfile </summary>
