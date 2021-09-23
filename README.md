@@ -449,4 +449,34 @@ NOTE: Some submodules may not be listed
   
           
 ## Usage (=yfinance_history)<a name="yfh"></a>
-a
+
+#### Ticker
+the ticker according to yahoo finance of the stock you want to get data from
+Example: "AAPL", "TD.TO"
+
+#### Interval
+the interval between data points returned
+One of:
+* "1m", "2m", "5m", "15m", "30m", "60m", "90m", "1h", "1d", "5d", "1wk", "1mo", "3mo"
+
+#### Period1/2
+period 1 is the start date for data returned and period 2 is the end date
+Date Format: YYYY-MM-DD
+Date format w/ time: YYYY-MM-DDTHH-MM-SS (don't change T)
+
+#### Events
+the stock events you want historical data on
+Format: Array "['dividends','splits']"
+* dividends
+* capitalGain
+* splits
+
+#### Header
+Show headers for data true/false
+
+#### Formula Examples
+Costco Quarterly w/ Dividends:
+* =yfinance_history("COST","3mo","2000-01-01","2021-01-01","['dividends']",true)
+
+Tesla Price on 2018-01-10
+* =yfinance_history("TSLA","1d","2018-01-10","2018-01-11","[]",false)
