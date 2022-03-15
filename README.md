@@ -9,7 +9,7 @@ A Yahoo Finance API Custom Function for Google sheets. This function can return 
 
 ## Installation
 1. on your sheet go to tools -> Script Editor
-2. Create new script and copy function.gs to it
+2. Create new script and copy yfinance.gs to it
 3. Once saved it should be ready for use
 
 ## Usage (=yfinance) <a name="yf"></a>
