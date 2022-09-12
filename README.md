@@ -1,6 +1,6 @@
 
 # yfinance for Google Sheets
-A Yahoo Finance API Custom Function for Google sheets. This function can return any data or statistics for yahoo finance stocks. Options support currently in development
+A Yahoo Finance API Custom Function for Google sheets. This function can return any data or statistics for yahoo finance stocks, bonds, funds, and ETFs. 
 #### Contents
 * [=yfinance usage & modules](#yf)
 * [=yfinance_history usage](#yfh)
